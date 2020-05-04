@@ -6,12 +6,17 @@ body{
     padding: 0;
 
 }
-
 header{
     background: black;
+    background-image: url("images/hero.jpeg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
     padding: 20px;
-}
+    text-align: center;
 
+}
 section{
     background: white;
     color:black;
@@ -19,7 +24,6 @@ section{
     flex-direction:row;
     border: solid gray;
 }
-
 footer{
     background: black;
     padding: 10px;
@@ -40,13 +44,26 @@ li{
     margin-right: 20px;
     
 }
-
 header nav ul li, header nav ul{
     color: white;
-    background-color: rgb(98, 186, 221);
+    background-color: none;
     font-size: 15px;
     margin: 3px 5px;
 }
 section.text div{
     width: 100%;
+}
+header .logo a {
+    background-image: url("images/logo.png");
+    background-size: 300px;
+    display: inline-block;
+    position: relative;
+    width: 300px;;
+    height:140px;
+    text-indent: -99999999px;
+    background-repeat: no-repeat;
+
+}
+.this_page{
+    background-color:  red;
 }
